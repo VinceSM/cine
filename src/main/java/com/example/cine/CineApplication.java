@@ -7,9 +7,9 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.example.library")
+@ComponentScan("com.example.cine")
 @EnableConfigurationProperties
-@EntityScan(basePackages = {"com.example.library.models"})
+@EntityScan(basePackages = {"com.example.cine.models"})
 public class CineApplication {
 
 	public static void main(String[] args) {

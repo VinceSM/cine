@@ -23,6 +23,10 @@ public class PeliculaModel {
     @Column(name = "year")
     private String year;
 
+    @Column(name = "idActor")
     private Long idActor;
+
+    @Column(name = "duracion")
+    private String duracion;
 
 }

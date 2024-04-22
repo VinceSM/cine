@@ -9,5 +9,6 @@ public class PeliculaResponse {
     private Long id;
     private String titulo;
     private Long idActor;
-    private String isbn;
+    private String duracion;
+    private String year;
 }

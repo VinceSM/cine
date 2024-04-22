@@ -26,7 +26,8 @@ public class PeliculaService {
     @Transactional
     public PeliculaResponse crearPelicula(PeliculaRequest peliculaRequest, ActorModel actor) {
         PeliculaModel pelicula = new PeliculaModel();
-        pelicula.setIsbn(peliculaRequest.getIsbn());
+        pelicula.setYear(peliculaRequest.getYear());
+        pelicula.setDuracion(peliculaRequest.getDuracion());
         pelicula.setTitulo(peliculaRequest.getTitulo());
         pelicula.setIdActor(peliculaRequest.getIdActor());
 

@@ -16,6 +16,7 @@ public class PeliculaMapper {
         pelicula.setTitulo(peliculaRequest.getTitulo());
         pelicula.setIdActor(peliculaRequest.getIdActor());
         pelicula.setYear(peliculaRequest.getYear());
+        pelicula.setDuracion(peliculaRequest.getDuracion());
         return pelicula;
     }
 
@@ -24,7 +25,8 @@ public class PeliculaMapper {
         peliculaResponse.setId(pelicula.getId());
         peliculaResponse.setTitulo(pelicula.getTitulo());
         peliculaResponse.setIdActor(pelicula.getIdActor());
-        peliculaResponse.setIsbn(pelicula.getYear());
+        peliculaResponse.setYear(pelicula.getYear());
+        peliculaResponse.setDuracion(pelicula.getDuracion());
         return peliculaResponse;
     }
 }
