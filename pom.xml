@@ -11,8 +11,8 @@
 	<groupId>com.example</groupId>
 	<artifactId>cine</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>library</name>
-	<description>Library of Autor and Book</description>
+	<name>cine</name>
+	<description>Cinema of Actor and Movie</description>
 	<properties>
 		<java.version>21</java.version>
 	</properties>
